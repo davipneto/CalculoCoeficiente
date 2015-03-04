@@ -1,0 +1,35 @@
+Davi Pereira Neto
+1608398
+Tecnologia e Sociedade-2-7.5
+Física 1-5-9
+Lógica Para Computação-4-9.8
+Fundamentos de Programação 1-6-9
+Cálculo Diferencial e Integral 1-6-9.8
+Geometria Analítica e Álgebra Linear-6-9.7
+Comunicação Gráfica-3-8.5
+Física Teórica 2-4-2
+Física Experimental 1-2-8.12
+Física 3-6-6
+Fundamentos de Programação 2-4-8
+Oficina de Integração 1-3-9.2
+Cálculo Diferencial e Integral 2-4-10
+Química-6-7.8
+
+Bruna de Paula
+1608363
+Tecnologia e Sociedade-2-9.2
+Física 1-5-8.2
+Lógica Para Computação-4-8
+Fundamentos de Programação 1-6-6.7
+Cálculo Diferencial e Integral 1-6-8.8
+Geometria Analítica e Álgebra Linear-6-8.6
+Comunicação Gráfica-3-8.5
+Física Teórica 2-4-0.3
+Física Experimental 1-2-7.73
+Física 3-6-2.1
+Fundamentos de Programação 2-4-3
+Oficina de Integração 1-3-9.2
+Cálculo Diferencial e Integral 2-4-9
+Química-6-7.7
+
+FIM
