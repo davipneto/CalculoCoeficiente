@@ -17,9 +17,6 @@ public class CalculoCoeficiente {
     public static void main(String[] args) throws FileNotFoundException, IOException{
         ProcessaAluno p1 = new ProcessaAluno("exemplo1.txt");
         Alunos alunos = p1.getAlunos();
-    
-        /*Alunos alunos = new Alunos();
-        alunos.registraAlunos();*/
         System.out.println("1 - Consultar Aluno\n2 - Registrar Aluno\n0 - Sair");
         Scanner s = new Scanner(System.in),string = new Scanner(System.in);
         int opcao = s.nextInt();
@@ -60,6 +57,15 @@ public class CalculoCoeficiente {
             System.out.println("1 - Consultar Aluno\n2 - Registrar Aluno\n0 - Sair");
             opcao = s.nextInt();
         }while(opcao!=0);
+        System.out.println("1 - Salvar alterações\n2 - Salvar alterações em novo arquivo\n0-Não Salvar");
+        opcao = s.nextInt();
+        if(opcao == 1)
+            (new ExportaAluno("exemplo1.txt")).exportaAlunos(alunos);
+        else if(opcao == 2){
+            System.out.println("Digite o caminho do arquivo de destino: ");
+            String destino = string.nextLine();
+            (new ExportaAluno(destino)).exportaAlunos(alunos);
+        }
     }
 }
     

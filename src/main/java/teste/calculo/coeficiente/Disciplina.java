@@ -41,5 +41,8 @@ public class Disciplina {
         this.nota = nota;
     }
     
-    
+    @Override
+    public String toString(){
+        return descricao + "-" + peso + "-" + nota;
+    }
 }
